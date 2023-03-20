@@ -18,8 +18,6 @@ namespace KYH_WebDev_test.Pages
             _context = context;
         }
 
-
-
         public void OnGet()
         {
             People = _context.People.ToList();
